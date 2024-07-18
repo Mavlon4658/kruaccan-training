@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КРУАССАН-training</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="main_container header__container">
+                <a href="/" class="header__logo">
+                    <img src="./images/logo.svg" alt="">
+                </a>
+                <ul class="header__nav">
+                    <li>
+                        <a href="#" class="active">Учебные курсы</a>
+                    </li>
+                    <li>
+                        <a href="#">Аналитика</a>
+                    </li>
+                    <li>
+                        <a href="#">Справочник</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Modal -->
+        <section class="modal">
+            <div class="modal__bg"></div>
+            <div class="modal__content">
+                <button class="modal__close">
+                    <img src="./images/times.svg" alt="">
+                </button>
+                <h3>Выбрать должности:</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" checked name="" id="">
+                        <span class="check-icon"></span>
+                        <span class="text">Руководитель</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span class="check-icon"></span>
+                        <span class="text">Директор</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked name="" id="">
+                        <span class="check-icon"></span>
+                        <span class="text">Администратор</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span class="check-icon"></span>
+                        <span class="text">Официант</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span class="check-icon"></span>
+                        <span class="text">Повар</span>
+                    </li>
+                </ul>
+                <p>Добавлять и редактировать должности вы можете в разделе <a href="#">“справочник”</a></p>
+            </div>
+        </section>
+        <!-- Modal end -->
+
+        <main>
+
+            <!-- Course -->
+            <section class="course">
+                <div class="main_container">
+                    <h2 class="course__title">Добавление нового курса</h2>
+                    <div class="course__content">
+                        <div class="course__content_head">
+                            <ul>
+                                <li>
+                                    <h3>Название:</h3>
+                                    <p>
+                                        <span>Курс такой то</span>
+                                        <img src="./images/pen-red.svg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Уровень:</h3>
+                                    <div class="form_radio">
+                                        <label for="radio1">
+                                            <input type="radio" checked name="базовый" value="базовый" id="radio1">
+                                            <span>базовый</span>
+                                        </label>
+                                        <label for="radio2">
+                                            <input type="radio" name="базовый" value="ПРОФИ" id="radio2">
+                                            <span>ПРОФИ</span>
+                                        </label>
+                                        <label for="radio3">
+                                            <input type="radio" name="базовый" value="ЭКСПЕРТ" id="radio3">
+                                            <span>ЭКСПЕРТ</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3>Должности:</h3>
+                                    <p>
+                                        <span>Курс такой то</span>
+                                        <img src="./images/pen-red.svg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Рестораны:</h3>
+                                    <p>
+                                        <span>Курс такой то</span>
+                                        <img src="./images/pen-red.svg" alt="">
+                                    </p>
+                                </li>
+                            </ul>
+                            <div class="texts">
+                                <h3>Описание курса:</h3>
+                                <p>
+                                    Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее, Текст по курсу и так далее,
+                                    <button>
+                                        <img src="./images/pen-red.svg" alt="">
+                                    </button>
+                                </p>
+                            </div>
+                            <div class="select_file__wrap">
+                                <h3>Обложка:</h3>
+                                <label class="select_file" for="file">
+                                    <input type="file" name="" id="file">
+                                    <img src="./images/cloud.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Lesson -->
+                        <div class="course_item">
+                            <h3>Уроки:</h3>
+                            <ul>
+                                <li>
+                                    <div class="course_item__text">
+                                        <span>Правильная подача горячих блюд из морской рыбы</span>
+                                        <div class="icons">
+                                            <img src="./images/arrow-down.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" checked name="" id="">
+                                        <div class="checkbox_icon">
+                                            <img src="./images/eye-icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="pen-icon">
+                                        <img src="./images/pen-icon.svg" alt="">
+                                    </a>
+                                    <a href="#" class="delete-icon">
+                                        <img src="./images/delete-icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="course_item__text">
+                                        <span>Правильная подача горячих блюд из морской рыбы</span>
+                                        <div class="icons">
+                                            <img src="./images/arrow-up.svg" alt="">
+                                            <img src="./images/arrow-down.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" checked name="" id="">
+                                        <div class="checkbox_icon">
+                                            <img src="./images/eye-icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="pen-icon">
+                                        <img src="./images/pen-icon.svg" alt="">
+                                    </a>
+                                    <a href="#" class="delete-icon">
+                                        <img src="./images/delete-icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="course_item__text">
+                                        <span>Правильная подача горячих блюд из морской рыбы</span>
+                                        <div class="icons">
+                                            <img src="./images/arrow-up.svg" alt="">
+                                            <img src="./images/arrow-down.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" checked name="" id="">
+                                        <div class="checkbox_icon">
+                                            <img src="./images/eye-icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="pen-icon">
+                                        <img src="./images/pen-icon.svg" alt="">
+                                    </a>
+                                    <a href="#" class="delete-icon">
+                                        <img src="./images/delete-icon.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <button class="add_btn moda__open">+ Добавить урок</button>
+                        </div>
+                        <!-- Lesson end -->
+                        
+                        <!-- Test -->
+                        <div class="course_item">
+                            <h3>Тесты:</h3>
+                            <ul>
+                                <li>
+                                    <div class="course_item__text">
+                                        <span>Правильная подача горячих блюд из морской рыбы</span>
+                                        <div class="icons">
+                                            <img src="./images/arrow-down.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" checked name="" id="">
+                                        <div class="checkbox_icon">
+                                            <img src="./images/eye-icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="pen-icon">
+                                        <img src="./images/pen-icon.svg" alt="">
+                                    </a>
+                                    <a href="#" class="delete-icon">
+                                        <img src="./images/delete-icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="course_item__text">
+                                        <span>Правильная подача горячих блюд из морской рыбы</span>
+                                        <div class="icons">
+                                            <img src="./images/arrow-up.svg" alt="">
+                                            <img src="./images/arrow-down.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" checked name="" id="">
+                                        <div class="checkbox_icon">
+                                            <img src="./images/eye-icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="pen-icon">
+                                        <img src="./images/pen-icon.svg" alt="">
+                                    </a>
+                                    <a href="#" class="delete-icon">
+                                        <img src="./images/delete-icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="course_item__text">
+                                        <span>Правильная подача горячих блюд из морской рыбы</span>
+                                        <div class="icons">
+                                            <img src="./images/arrow-up.svg" alt="">
+                                            <img src="./images/arrow-down.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" checked name="" id="">
+                                        <div class="checkbox_icon">
+                                            <img src="./images/eye-icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a href="#" class="pen-icon">
+                                        <img src="./images/pen-icon.svg" alt="">
+                                    </a>
+                                    <a href="#" class="delete-icon">
+                                        <img src="./images/delete-icon.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <button class="add_btn moda__open">+ Добавить урок</button>
+                        </div>
+                        <!-- Test end -->
+                    </div>
+                </div>
+            </section>
+            <!-- Course end -->
+
+        </main>
+
+    </div>
+
+
+    <!-- JS file -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
